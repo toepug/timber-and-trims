@@ -5,7 +5,7 @@ import { makerPortrait, aboutGallery } from "@/data/about";
 export const metadata: Metadata = {
   title: "About | Timber & Trims",
   description:
-    "The story behind Timber & Trims -- handmade wooden eyeglass temples, fitted to acetate frames, made one pair at a time.",
+    "The story behind Timber & Trims -- handmade wooden eyeglass temples, fitted to upcycled material frames, made one pair at a time.",
 };
 
 export default function AboutPage() {
@@ -60,7 +60,7 @@ export default function AboutPage() {
             Two materials that were never supposed to meet
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-            Acetate frame fronts are great at what they do &mdash; color,
+            Upcycled material frame fronts are great at what they do &mdash; color,
             pattern, durability, and decades of established shapes. Wood is
             great at something else entirely: grain that&rsquo;s different on
             every single piece, a warmth you can feel against your skin, and
@@ -70,11 +70,11 @@ export default function AboutPage() {
             Putting them together means every pair is genuinely one of a
             kind. Two frames built from the same plastic front and the same
             species of wood will still come out looking like siblings, not
-            twins &mdash; and that&rsquo;s exactly how we like it.
+            twins &mdash; and that&rsquo;s exactly how I like it.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-muted">
             Every temple is shaped, inlaid, sanded, and oiled by hand before
-            it&rsquo;s fitted to a frame. We test the fit, the flex, and the
+            it&rsquo;s fitted to a frame. I test the fit, the flex, and the
             balance &mdash; because a beautiful pair of glasses that
             doesn&rsquo;t sit right on your face isn&rsquo;t actually
             beautiful at all.

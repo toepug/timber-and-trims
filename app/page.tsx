@@ -28,15 +28,16 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-walnut/90 via-walnut/40 to-walnut/10" />
         <div className="relative mx-auto w-full max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
           <p className="font-serif text-sm uppercase tracking-[0.25em] text-oak-light">
-            Handmade in small batches
+            Individually Handmade
           </p>
           <h1 className="mt-4 max-w-2xl font-serif text-4xl font-semibold leading-tight text-cream sm:text-5xl md:text-6xl">
             Wood-grain temples, fitted by hand to every frame.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream/85">
             Timber &amp; Trims pairs hand-shaped wooden eyeglass temples
-            &mdash; walnut, oak, maple, rosewood &mdash; with acetate frame
-            fronts, inlaid and finished one pair at a time.
+            &mdash; walnut, oak, maple, beech, zebrawood &mdash; with TR-90
+            nylon and recycled plastic fronts, inlaid and finished one pair
+            at a time.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
@@ -49,7 +50,7 @@ export default function Home() {
               href="/about"
               className="rounded-full border border-cream/40 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-cream transition-colors hover:border-cream hover:bg-cream/10"
             >
-              Our Story
+              My Story
             </Link>
           </div>
         </div>
@@ -58,15 +59,15 @@ export default function Home() {
       {/* Intro */}
       <section className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6 lg:px-8">
         <p className="font-serif text-sm uppercase tracking-[0.25em] text-oak">
-          What we make
+          What I make
         </p>
         <h2 className="mt-3 font-serif text-3xl font-semibold text-walnut sm:text-4xl">
           Real wood grain, built for everyday glasses
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-ink-muted">
           Every pair starts as a raw block of walnut, oak, maple, beech,
-          mahogany, or rosewood. We shape, inlay, and finish each temple by
-          hand, then hinge it onto an acetate frame front &mdash; matching
+          mahogany, or rosewood. I shape, inlay, and finish each temple by
+          hand, then hinge it onto an upcycled material frame front &mdash; matching
           grain, color, and hardware so the wood and the frame feel like they
           were made for each other. The result is eyewear with the warmth and
           character of a handmade object, built to be worn every day.
@@ -142,9 +143,9 @@ export default function Home() {
             Have something in mind?
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-cream/80">
-            We take custom orders for wood species, finish, inlay patterns,
-            and frame colors. Tell us what you&rsquo;re picturing and
-            we&rsquo;ll help bring it to life.
+            I take custom orders for wood species, finish, inlay patterns,
+            and frame colors. Tell me what you&rsquo;re picturing and
+            I&rsquo;ll help bring it to life.
           </p>
           <Link
             href="/contact"

@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Timber & Trims | Handmade Wood Eyewear",
   description:
-    "Handcrafted wooden eyeglass temples paired with acetate frame fronts. One-of-a-kind, made-to-order eyewear from Timber & Trims.",
+    "Handcrafted wooden eyeglass temples paired with upcycled material frame fronts. One-of-a-kind, made-to-order eyewear from Timber & Trims.",
 };
 
 export default function RootLayout({

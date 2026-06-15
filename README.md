@@ -1,7 +1,7 @@
 # Timber & Trims
 
 A showcase site for **Timber & Trims** — handmade wooden eyeglass temples,
-hand-shaped and inlaid, then fitted to acetate (and full-wood) frame fronts.
+hand-shaped and inlaid, then fitted to upcycled material (and full-wood) frame fronts.
 
 The site is a portfolio/marketing site today (homepage, gallery, process,
 about, and a contact form), built on a product data layer that's structured

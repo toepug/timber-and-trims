@@ -125,7 +125,7 @@ export default async function ProductPage({
             </p>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
               Each piece is made in small batches, so availability varies.
-              Reach out and we can let you know what&rsquo;s possible &mdash;
+              Reach out and I can let you know what&rsquo;s possible &mdash;
               whether that&rsquo;s this exact pairing or a custom variation in
               your own wood and frame combination.
             </p>

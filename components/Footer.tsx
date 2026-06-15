@@ -18,8 +18,8 @@ export default function Footer() {
             Timber <span className="text-oak">&amp;</span> Trims
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/75">
-            Hand-carved wooden eyeglass temples, fitted to acetate frame
-            fronts and finished one pair at a time.
+            Hand-carved wooden eyeglass temples, fitted to upcycled material
+            frame fronts and finished one pair at a time.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export default function Footer() {
           </h3>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/75">
             Have a wood, frame color, or inlay in mind? Reach out through the
-            contact page and we&apos;ll talk through what&apos;s possible.
+            contact page and I&apos;ll talk through what&apos;s possible.
           </p>
         </div>
       </div>

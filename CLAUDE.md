@@ -3,7 +3,7 @@
 # Timber & Trims
 
 Handmade wooden eyeglass temples — hand-shaped, inlaid, and finished — fitted
-to acetate (or full-wood) frame fronts. This repo is the marketing/portfolio
+to upcycled material (or full-wood) frame fronts. This repo is the marketing/portfolio
 site for the brand, structured so it can grow into e-commerce later without a
 rewrite.
 

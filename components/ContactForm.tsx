@@ -22,7 +22,7 @@ export default function ContactForm() {
           Thanks for reaching out!
         </p>
         <p className="mt-2 text-ink-muted">
-          We&rsquo;ve received your message and will get back to you soon.
+          I&rsquo;ve received your message and will get back to you soon.
         </p>
       </div>
     );
@@ -102,7 +102,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={6}
-          placeholder="Tell us about the wood, frame color, inlay, or anything else you have in mind."
+          placeholder="Tell me about the wood, frame color, inlay, or anything else you have in mind."
           className={fieldClasses}
         />
       </div>

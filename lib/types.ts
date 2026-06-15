@@ -19,7 +19,7 @@ export interface Product {
   category: ProductCategory;
   /** Wood species/finish used for the temples */
   wood: string;
-  /** Color/finish of the acetate (or full wood) frame front */
+  /** Color/finish of the upcycled material (or full wood) frame front */
   frameColor: string;
   /** Notable decorative details, e.g. medallions, inlay, studs */
   accents: string[];
