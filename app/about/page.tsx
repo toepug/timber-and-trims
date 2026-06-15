@@ -29,22 +29,33 @@ export default function AboutPage() {
               About
             </p>
             <h1 className="mt-2 font-serif text-4xl font-semibold text-walnut sm:text-5xl">
-              Glasses that started as a pile of scrap wood
+              It started with a plank for grilling fish
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-              Timber &amp; Trims started on a workbench, not in a design
-              studio. After years of breaking, losing, and patching together
-              cheap frames, the idea was simple: what if the parts that take
-              the most abuse &mdash; the temples, the arms that flex every
-              time you put your glasses on &mdash; were carved from something
-              with a little more soul than injection-molded plastic?
+              I&rsquo;m an optometrist by training. Early in my career I
+              worked for Dresden Vision, an optical store built around a
+              simple modular idea: every frame front and temple is held
+              together by a single pin, and the parts are fully
+              interchangeable. Spending my days around frames that came
+              apart that easily got me thinking &mdash; what if the temples
+              were wood?
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-              The first pair used a scrap of walnut left over from a furniture
-              project, hand-shaped to fit an old frame front and held on with
-              a salvaged hinge. It wasn&rsquo;t perfect, but it felt
-              different on &mdash; warmer, lighter, a little more
-              &ldquo;mine.&rdquo; That feeling is still the whole point.
+              The first attempt was carved from a scrap of cedar &mdash; the
+              kind of plank you&rsquo;d use to grill a fish, not build a
+              frame. The curves weren&rsquo;t quite right and the fit was far
+              from perfect, but it held together, and it did the one thing
+              that actually mattered: it held a pair of lenses in front of
+              my eyes.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+              From there, I focused on improving one piece at a time
+              &mdash; the fit, the curve, the finish. I started collecting
+              woodworking tools in the basement of one of my offices, and
+              that corner became my first real workshop. The more time I
+              spent shaping wood, the more I wanted to be doing it, so I
+              eventually moved the workshop home &mdash; and started
+              bringing these temples to other people.
             </p>
           </div>
         </div>
