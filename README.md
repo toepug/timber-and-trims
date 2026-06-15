@@ -59,7 +59,7 @@ shape, and conventions for adding new products, images, or pages.
 
 ## Deployment
 
-This project is ready to deploy on [Vercel](https://vercel.com) with zero
-extra configuration — connect the GitHub repo
-([toepug/timber-and-trims](https://github.com/toepug/timber-and-trims)) and
-Vercel will detect the Next.js app automatically.
+This project deploys on [Vercel](https://vercel.com) — connect the GitHub
+repo ([toepug/timber-and-trims](https://github.com/toepug/timber-and-trims))
+and push to `main`. `vercel.json` pins the Framework Preset to `nextjs` so
+the build always runs through the Next.js output adapter.

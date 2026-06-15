@@ -132,7 +132,12 @@ such as Resend or Formspree so messages actually reach an inbox.
 
 ## Deployment
 
-- Hosted on [Vercel](https://vercel.com) — no special configuration needed
-  beyond the default Next.js setup (`next.config.ts` is intentionally
-  minimal).
+- Hosted on [Vercel](https://vercel.com) — `next.config.ts` is intentionally
+  minimal.
+- `vercel.json` pins the Framework Preset to `nextjs`. The Vercel project's
+  dashboard setting for this got reset to "Other" at one point, which made
+  the build skip the Next.js output adapter (only `public/` was deployed as
+  static files) and produced a `404: NOT_FOUND` on every route despite a
+  successful `next build`. `vercel.json` keeps this pinned regardless of the
+  dashboard setting.
 - GitHub repo: https://github.com/toepug/timber-and-trims (`main` branch)
