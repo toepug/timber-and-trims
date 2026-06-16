@@ -20,7 +20,7 @@ export const processSteps: ProcessStep[] = [
   {
     title: "2. Designing the inlay",
     description:
-      "For pieces with a medallion, stripe, or mosaic accent, the inlay is laid out first. Thin strips of dyed wood and acrylic are arranged into chevrons, checkerboards, or rainbow bands before they're set permanently into the temple.",
+      "For pieces with a stripe, or mosaic accent, the inlay is laid out first. Thin strips of leftover wood and plastic frame parts are arranged into chevrons, checkerboards, or rainbow bands before they're set permanently into the temple.",
     image: img(
       "/images/process/various-inlays.jpg",
       "An assortment of inlay material in various colors and patterns, laid out before being set into wood temples"
