@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     "Handcrafted wooden eyeglass temples paired with upcycled material frame fronts. One-of-a-kind, made-to-order eyewear from Timber & Trims.",
   icons: {
     icon: [
-      { url: "/favicon16x16.jpg", sizes: "16x16", type: "image/jpeg" },
-      { url: "/favicon-32x32.jpg", sizes: "32x32", type: "image/jpeg" },
+      { url: "/favicon16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
     apple: { url: "/logo-square.jpg", type: "image/jpeg" },
   },
