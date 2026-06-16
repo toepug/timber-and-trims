@@ -71,8 +71,8 @@ export default function AboutPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="/images/about/maple-medallion-kilim-detail.jpg"
-                alt="Close-up of maple wood temples with a brass medallion resting on a woven textile"
+                src="/images/products/black-acetate-walnut-mosaic-inlay-side.jpg"
+                alt="Side view of walnut wood temples with a colorful checkerboard mosaic inlay on black frames"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 className="object-cover"
