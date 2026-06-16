@@ -5,7 +5,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Gallery | Timber & Trims",
   description:
-    "Browse handmade wood-temple eyeglasses and full-wood sunglasses in walnut, oak, maple, beech, mahogany, and rosewood -- each with its own inlay and frame pairing.",
+    "Browse handmade wood eyewear from Timber & Trims -- Wood Temples, Signature Series with inlay and medallion details, and Full Wood Frames. Each pair is shaped and finished by hand.",
 };
 
 export default function GalleryPage() {
@@ -20,8 +20,7 @@ export default function GalleryPage() {
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-ink-muted">
           Every piece is shaped from a different blank, so no two are exactly
-          alike. Filter by frame type or wood species to see how each one
-          takes on color, grain, and inlay.
+          alike. Filter by style or wood tone to find your pairing.
         </p>
       </div>
 

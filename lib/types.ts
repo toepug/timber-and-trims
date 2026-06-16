@@ -1,4 +1,10 @@
-export type ProductCategory = "eyeglasses" | "sunglasses";
+export type ProductCategory =
+  | "wood-temples"
+  | "signature-series"
+  | "full-wood-frame"
+  | "wood-metal-hybrid";
+
+export type WoodTone = "light" | "medium" | "dark";
 
 export interface ProductImage {
   src: string;
@@ -17,8 +23,8 @@ export interface Product {
   /** Longer description for product detail views */
   description: string;
   category: ProductCategory;
-  /** Wood species/finish used for the temples */
-  wood: string;
+  /** Visual tone of the wood temples: light, medium, or dark */
+  tone: WoodTone;
   /** Color/finish of the upcycled material (or full wood) frame front */
   frameColor: string;
   /** Notable decorative details, e.g. medallions, inlay, studs */

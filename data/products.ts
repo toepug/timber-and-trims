@@ -15,11 +15,11 @@ export const products: Product[] = [
     tagline: "Dark walnut temples with carved skull medallions",
     description:
       "Hand-shaped temples in rich, dark walnut, each inlaid with a carved bone-colored skull medallion. Paired with a matte black upcycled material front for a piece that's equal parts refined and a little rebellious.",
-    category: "eyeglasses",
-    wood: "Walnut",
+    category: "signature-series",
+    tone: "dark",
     frameColor: "Matte black",
     accents: ["Carved skull medallion"],
-    tags: ["walnut", "black", "medallion", "skull", "eyeglasses"],
+    tags: ["walnut", "black", "medallion", "skull"],
     featured: true,
     images: [
       img(
@@ -50,11 +50,11 @@ export const products: Product[] = [
     tagline: "Light maple temples with brass medallions on teal upcycled material",
     description:
       "Pale, fine-grained maple temples set against a teal upcycled material front, each finished with a hand-set brass medallion. A warm-and-cool pairing that feels equally at home in the studio or on the trail.",
-    category: "eyeglasses",
-    wood: "Maple",
+    category: "signature-series",
+    tone: "light",
     frameColor: "Teal",
     accents: ["Brass medallion"],
-    tags: ["maple", "teal", "medallion", "eyeglasses"],
+    tags: ["maple", "teal", "medallion"],
     featured: true,
     images: [
       img(
@@ -77,11 +77,11 @@ export const products: Product[] = [
     tagline: "Burgundy upcycled material with rainbow inlay and oak temples",
     description:
       "A deep burgundy front gets a playful edge from a hand-laid rainbow stripe inlay, balanced by a clean golden oak temple. Bold enough for a statement, classic enough for every day.",
-    category: "eyeglasses",
-    wood: "Golden Oak",
+    category: "signature-series",
+    tone: "medium",
     frameColor: "Burgundy",
     accents: ["Rainbow stripe inlay"],
-    tags: ["oak", "burgundy", "rainbow", "inlay", "eyeglasses"],
+    tags: ["oak", "burgundy", "rainbow", "inlay"],
     featured: true,
     images: [
       img(
@@ -100,11 +100,11 @@ export const products: Product[] = [
     tagline: "Blue, yellow & green colorblock front with mahogany temples",
     description:
       "A cheerful colorblock upcycled material front in blue, yellow, and green is grounded by warm mahogany temples. One of my most-loved combinations -- proof that wood and color can play well together.",
-    category: "eyeglasses",
-    wood: "Mahogany",
+    category: "wood-temples",
+    tone: "medium",
     frameColor: "Blue / Yellow / Green colorblock",
     accents: [],
-    tags: ["mahogany", "colorblock", "eyeglasses"],
+    tags: ["mahogany", "colorblock"],
     images: [
       img(
         "/images/products/colorblock-acetate-mahogany-temple-plant.jpg",
@@ -126,11 +126,11 @@ export const products: Product[] = [
     tagline: "Tortoiseshell upcycled material with maple temples and maker's mark",
     description:
       "A timeless tortoiseshell upcycled material front paired with a smooth maple temple, hand-engraved with my maker's mark. Understated and built to be a daily-wear staple.",
-    category: "eyeglasses",
-    wood: "Maple",
+    category: "signature-series",
+    tone: "light",
     frameColor: "Tortoiseshell",
     accents: ["Engraved maker's mark"],
-    tags: ["maple", "tortoise", "eyeglasses"],
+    tags: ["maple", "tortoise"],
     images: [
       img(
         "/images/products/tortoise-acetate-maple-temple-front.jpg",
@@ -148,11 +148,11 @@ export const products: Product[] = [
     tagline: "Clear upcycled material with striped oak & beech temples",
     description:
       "A frosted, translucent upcycled material front lets the temples take center stage: golden oak and pale beech, each banded with a dark contrast stripe inlay near the hinge.",
-    category: "eyeglasses",
-    wood: "Oak & Beech",
+    category: "signature-series",
+    tone: "light",
     frameColor: "Frosted clear",
     accents: ["Dark stripe inlay"],
-    tags: ["oak", "beech", "clear", "inlay", "eyeglasses"],
+    tags: ["oak", "beech", "clear", "inlay"],
     images: [
       img(
         "/images/products/clear-acetate-striped-oak-temple-side.jpg",
@@ -170,11 +170,11 @@ export const products: Product[] = [
     tagline: "Sky blue upcycled material with striped beech temples",
     description:
       "A bright sky-blue upcycled material front paired with a beech temple finished in fine contrast striping -- a fresh, breezy combination for everyday wear.",
-    category: "eyeglasses",
-    wood: "Beech",
+    category: "signature-series",
+    tone: "light",
     frameColor: "Sky blue",
     accents: ["Stripe inlay"],
-    tags: ["beech", "blue", "inlay", "eyeglasses"],
+    tags: ["beech", "blue", "inlay"],
     images: [
       img(
         "/images/products/sky-blue-acetate-beech-striped-temple.jpg",
@@ -188,11 +188,11 @@ export const products: Product[] = [
     tagline: "Forest green upcycled material with beech temples and brass medallions",
     description:
       "Deep forest green upcycled material meets pale, fine-grained beech, finished with a hand-set brass medallion on each temple. Grounded, woodsy, and quietly refined.",
-    category: "eyeglasses",
-    wood: "Beech",
+    category: "signature-series",
+    tone: "light",
     frameColor: "Forest green",
     accents: ["Brass medallion"],
-    tags: ["beech", "green", "medallion", "eyeglasses"],
+    tags: ["beech", "green", "medallion"],
     images: [
       img(
         "/images/products/forest-acetate-beech-brass-medallion-side.jpg",
@@ -210,11 +210,11 @@ export const products: Product[] = [
     tagline: "Golden oak temples with star studs on black upcycled material",
     description:
       "Golden oak temples with a warm, straight grain, each set with a small metal star stud near the hinge. Paired with a classic black upcycled material front for an everyday frame with a little extra shine.",
-    category: "eyeglasses",
-    wood: "Golden Oak",
+    category: "signature-series",
+    tone: "medium",
     frameColor: "Black",
     accents: ["Star stud"],
-    tags: ["oak", "black", "star", "eyeglasses"],
+    tags: ["oak", "black", "star"],
     images: [
       img(
         "/images/products/black-acetate-oak-star-stud-front.jpg",
@@ -236,11 +236,11 @@ export const products: Product[] = [
     tagline: "Walnut temples with a hand-laid checkerboard inlay",
     description:
       "Dark walnut temples featuring a vibrant checkerboard mosaic inlay -- dozens of tiny pieces of wood and color hand-set in a tight grid. Paired with a black upcycled material front to let the inlay shine.",
-    category: "eyeglasses",
-    wood: "Walnut",
+    category: "signature-series",
+    tone: "dark",
     frameColor: "Black",
     accents: ["Checkerboard mosaic inlay"],
-    tags: ["walnut", "black", "mosaic", "inlay", "eyeglasses"],
+    tags: ["walnut", "black", "mosaic", "inlay"],
     images: [
       img(
         "/images/products/black-acetate-walnut-mosaic-inlay-top.jpg",
@@ -262,11 +262,11 @@ export const products: Product[] = [
     tagline: "Walnut temples with a rainbow chevron inlay",
     description:
       "Dark walnut temples banded with a hand-cut chevron inlay running through every color of the rainbow. A black upcycled material front keeps the focus on the woodwork.",
-    category: "eyeglasses",
-    wood: "Walnut",
+    category: "signature-series",
+    tone: "dark",
     frameColor: "Black",
     accents: ["Rainbow chevron inlay"],
-    tags: ["walnut", "black", "chevron", "rainbow", "inlay", "eyeglasses"],
+    tags: ["walnut", "black", "chevron", "rainbow", "inlay"],
     images: [
       img(
         "/images/products/black-acetate-walnut-chevron-inlay-top.jpg",
@@ -284,11 +284,11 @@ export const products: Product[] = [
     tagline: "Smoke upcycled material with deep rosewood and an engraved medallion",
     description:
       "A smoke-tinted upcycled material front pairs with a deep, reddish-brown rosewood temple, finished with a small engraved geometric medallion. Moody and refined.",
-    category: "eyeglasses",
-    wood: "Rosewood",
+    category: "signature-series",
+    tone: "dark",
     frameColor: "Smoke",
     accents: ["Engraved medallion"],
-    tags: ["rosewood", "smoke", "medallion", "eyeglasses"],
+    tags: ["rosewood", "smoke", "medallion"],
     images: [
       img(
         "/images/products/smoke-acetate-rosewood-medallion.jpg",
@@ -302,11 +302,11 @@ export const products: Product[] = [
     tagline: "Gray upcycled material with mahogany temples and an ornate silver medallion",
     description:
       "A soft gray upcycled material front sets off a warm mahogany temple, capped with an ornate silver medallion. A refined pairing of cool and warm tones.",
-    category: "eyeglasses",
-    wood: "Mahogany",
+    category: "signature-series",
+    tone: "medium",
     frameColor: "Gray",
     accents: ["Ornate silver medallion"],
-    tags: ["mahogany", "gray", "medallion", "eyeglasses"],
+    tags: ["mahogany", "gray", "medallion"],
     images: [
       img(
         "/images/products/gray-acetate-mahogany-temple-front.jpg",
@@ -324,11 +324,11 @@ export const products: Product[] = [
     tagline: "Wood aviator sunglasses with blue mirrored lenses",
     description:
       "A full wood aviator frame with blue mirrored lenses, grain running clean across the brow and into beech temples. A statement piece for sunny days.",
-    category: "sunglasses",
-    wood: "Walnut & Beech",
+    category: "full-wood-frame",
+    tone: "medium",
     frameColor: "Natural wood",
     accents: ["Blue mirrored lenses"],
-    tags: ["walnut", "beech", "sunglasses", "mirror"],
+    tags: ["walnut", "beech", "mirror"],
     images: [
       img(
         "/images/products/walnut-beech-aviator-blue-mirror-table.jpg",
@@ -346,11 +346,11 @@ export const products: Product[] = [
     tagline: "Walnut sunglasses with green-gold mirrored lenses",
     description:
       "A bold square silhouette carved from a single block of walnut, paired with green-gold mirrored lenses. Heavyweight, hand-finished, and entirely wood.",
-    category: "sunglasses",
-    wood: "Walnut",
+    category: "full-wood-frame",
+    tone: "dark",
     frameColor: "Natural wood",
     accents: ["Green-gold mirrored lenses"],
-    tags: ["walnut", "sunglasses", "mirror"],
+    tags: ["walnut", "mirror"],
     images: [
       img(
         "/images/products/walnut-sunglasses-green-gold-mirror.jpg",
@@ -368,11 +368,11 @@ export const products: Product[] = [
     tagline: "Golden oak aviators with rose mirrored lenses",
     description:
       "A classic aviator silhouette in golden oak with a warm, straight grain, finished with rose-mirrored lenses for golden-hour wear.",
-    category: "sunglasses",
-    wood: "Golden Oak",
+    category: "full-wood-frame",
+    tone: "medium",
     frameColor: "Natural wood",
     accents: ["Rose mirrored lenses"],
-    tags: ["oak", "sunglasses", "mirror"],
+    tags: ["oak", "mirror"],
     images: [
       img(
         "/images/products/golden-oak-aviator-rose-mirror.jpg",
@@ -386,11 +386,11 @@ export const products: Product[] = [
     tagline: "Walnut sunglasses with silver mirrored lenses",
     description:
       "A versatile square wood frame in walnut with a tight, even grain, finished with cool silver mirrored lenses. Equally at home on a hike or around town.",
-    category: "sunglasses",
-    wood: "Walnut",
+    category: "full-wood-frame",
+    tone: "dark",
     frameColor: "Natural wood",
     accents: ["Silver mirrored lenses"],
-    tags: ["walnut", "sunglasses", "mirror"],
+    tags: ["walnut", "mirror"],
     images: [
       img(
         "/images/products/walnut-sunglasses-silver-mirror-display.jpg",
@@ -404,11 +404,11 @@ export const products: Product[] = [
     tagline: "Oak & walnut aviator with arctic mirrored lenses",
     description:
       "Two woods, one frame: a golden oak brow flows into dark walnut temples, finished with cool blue-green mirrored lenses for a frame that's never just one thing.",
-    category: "sunglasses",
-    wood: "Oak & Walnut",
+    category: "full-wood-frame",
+    tone: "medium",
     frameColor: "Natural wood",
     accents: ["Blue-green mirrored lenses"],
-    tags: ["oak", "walnut", "sunglasses", "mirror"],
+    tags: ["oak", "walnut", "mirror"],
     images: [
       img(
         "/images/products/two-tone-wood-aviator-blue-green-mirror.jpg",

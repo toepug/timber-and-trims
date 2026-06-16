@@ -4,34 +4,32 @@ import { useMemo, useState } from "react";
 import type { Product } from "@/lib/types";
 import ProductCard from "@/components/ProductCard";
 
-const CATEGORIES = ["All", "Eyeglasses", "Sunglasses"] as const;
-const WOODS = [
+const CATEGORIES = [
   "All",
-  "Walnut",
-  "Oak",
-  "Maple",
-  "Beech",
-  "Mahogany",
-  "Rosewood",
+  "Wood Temples",
+  "Signature Series",
+  "Full Wood Frame",
 ] as const;
 
+const TONES = ["All", "Light", "Medium", "Dark"] as const;
+
 type Category = (typeof CATEGORIES)[number];
-type Wood = (typeof WOODS)[number];
+type Tone = (typeof TONES)[number];
 
 export default function GalleryGrid({ products }: { products: Product[] }) {
   const [category, setCategory] = useState<Category>("All");
-  const [wood, setWood] = useState<Wood>("All");
+  const [tone, setTone] = useState<Tone>("All");
 
   const filtered = useMemo(() => {
     return products.filter((product) => {
       const categoryMatch =
-        category === "All" || product.category === category.toLowerCase();
-      const woodMatch =
-        wood === "All" ||
-        product.wood.toLowerCase().includes(wood.toLowerCase());
-      return categoryMatch && woodMatch;
+        category === "All" ||
+        product.category === category.toLowerCase().replace(/ /g, "-");
+      const toneMatch =
+        tone === "All" || product.tone === tone.toLowerCase();
+      return categoryMatch && toneMatch;
     });
-  }, [products, category, wood]);
+  }, [products, category, tone]);
 
   return (
     <div>
@@ -43,10 +41,10 @@ export default function GalleryGrid({ products }: { products: Product[] }) {
           onChange={setCategory}
         />
         <FilterGroup
-          label="Wood"
-          options={WOODS}
-          value={wood}
-          onChange={setWood}
+          label="Tone"
+          options={TONES}
+          value={tone}
+          onChange={setTone}
         />
       </div>
 

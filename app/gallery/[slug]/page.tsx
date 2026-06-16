@@ -83,7 +83,13 @@ export default async function ProductPage({
 
         <div>
           <p className="font-serif text-sm uppercase tracking-[0.25em] text-oak">
-            {product.category === "sunglasses" ? "Sunglasses" : "Eyeglasses"}
+            {product.category === "wood-temples"
+              ? "Wood Temples"
+              : product.category === "signature-series"
+                ? "Signature Series"
+                : product.category === "full-wood-frame"
+                  ? "Full Wood Frame"
+                  : "Wood / Metal Hybrid"}
           </p>
           <h1 className="mt-2 font-serif text-4xl font-semibold text-walnut sm:text-5xl">
             {product.name}
@@ -97,9 +103,9 @@ export default async function ProductPage({
           <dl className="mt-8 grid grid-cols-2 gap-6 border-t border-oak-light/40 pt-6 text-sm">
             <div>
               <dt className="font-semibold uppercase tracking-wide text-ink-muted">
-                Wood
+                Tone
               </dt>
-              <dd className="mt-1 text-walnut">{product.wood}</dd>
+              <dd className="mt-1 capitalize text-walnut">{product.tone}</dd>
             </div>
             <div>
               <dt className="font-semibold uppercase tracking-wide text-ink-muted">
