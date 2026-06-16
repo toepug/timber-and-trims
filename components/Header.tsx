@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-oak-light/40 bg-cream/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
+        <Link href="/" onClick={() => setOpen(false)} className="flex items-start gap-2">
           <Image
             src="/logo-square.jpg"
             alt=""
@@ -34,7 +34,7 @@ export default function Header() {
             alt="Timber and Trims"
             width={495}
             height={191}
-            className="h-9 w-auto mix-blend-multiply sm:h-10"
+            className="h-12 w-auto mix-blend-multiply sm:h-14"
             priority
           />
         </Link>
