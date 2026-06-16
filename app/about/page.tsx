@@ -75,27 +75,30 @@ export default function AboutPage() {
             Two materials that were never supposed to meet
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-            Acetate and wood each bring something different to a frame.
+            Wood and TR-90 nylon each bring something different to a frame.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-            The acetate front provides the color, pattern, durability, and
-            timeless shapes that have made it a staple of eyewear for
-            generations. Wood brings character. No two pieces have exactly
-            the same grain, it feels warm against the skin, and it develops
-            a unique patina over time as it&rsquo;s worn and handled.
+            The recycled TR-90 nylon front provides the shape, color,
+            durability, and everyday practicality that make for a great pair
+            of glasses. Wood brings something else entirely. No two pieces
+            have exactly the same grain, it feels warm against the skin, and
+            it develops character over time as it&rsquo;s worn and handled.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-            When combined, they create frames that are truly one of a kind.
-            Even if I start with the same acetate front and the same species
-            of wood, the finished frames will never be identical. They&rsquo;ll
-            share the same DNA, but each pair develops its own personality.
+            When combined, they create frames that are genuinely one of a
+            kind. Even if I start with the same frame front and the same
+            species of wood, no two finished pairs will ever be exactly
+            alike. They&rsquo;ll share the same foundation, but each pair
+            ends up with its own unique character.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-muted">
             Every wooden temple is cut, shaped, inlaid, sanded, and finished
-            by hand before being fitted to the frame. I personally check the
-            fit, flexibility, and balance of every pair. After all, no matter
-            how beautiful a frame looks on the workbench, it isn&rsquo;t
-            finished until it feels right on your face.
+            by hand before being fitted to a recycled frame front. I
+            personally adjust and inspect every pair, checking the fit,
+            balance, splay angle, and pantoscopic tilt to make sure they sit
+            comfortably and naturally on the face. No matter how beautiful a
+            frame looks on the workbench, it isn&rsquo;t finished until it
+            feels right when you put it on.
           </p>
         </div>
       </section>
