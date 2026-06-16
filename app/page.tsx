@@ -35,7 +35,7 @@ export default function Home() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream/85">
             Timber &amp; Trims pairs hand-shaped wooden eyeglass temples
-            &mdash; walnut, oak, maple, beech, zebrawood &mdash; with TR-90
+            &mdash; walnut, oak, maple, cherry, beech, zebrawood &mdash; with TR-90
             nylon and recycled plastic fronts, inlaid and finished one pair
             at a time.
           </p>
