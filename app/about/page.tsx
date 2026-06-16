@@ -32,30 +32,34 @@ export default function AboutPage() {
               It started with a plank for grilling fish
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-              I&rsquo;m an optometrist by training. Early in my career I
-              worked for Dresden Vision, an optical store built around a
+              I&rsquo;m an optometrist by training. Early in my career, I
+              worked for Dresden Vision, an optical company built around a
               simple modular idea: every frame front and temple is held
-              together by a single pin, and the parts are fully
+              together by a single pin, making every part fully
               interchangeable. Spending my days around frames that came
-              apart that easily got me thinking &mdash; what if the temples
-              were wood?
+              apart so easily got me thinking: what if the temples were
+              made of wood?
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-              The first attempt was carved from a scrap of cedar &mdash; the
+              My first attempt was carved from a scrap of cedar &mdash; the
               kind of plank you&rsquo;d use to grill a fish, not build a
-              frame. The curves weren&rsquo;t quite right and the fit was far
-              from perfect, but it held together, and it did the one thing
-              that actually mattered: it held a pair of lenses in front of
-              my eyes.
+              pair of glasses. The curves weren&rsquo;t quite right, and
+              the fit was far from perfect, but it held together. More
+              importantly, it did the one thing that mattered: it held a
+              pair of lenses in front of my eyes.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-              From there, I focused on improving one piece at a time
-              &mdash; the fit, the curve, the finish. I started collecting
-              woodworking tools in the basement of one of my offices, and
-              that corner became my first real workshop. The more time I
-              spent shaping wood, the more I wanted to be doing it, so I
-              eventually moved the workshop home &mdash; and started
-              bringing these temples to other people.
+              From there, I focused on improving one detail at a time
+              &mdash; the fit, the shape, the finish. I started collecting
+              woodworking tools and setting up a small workshop in the
+              basement of one of my clinics. Before long, that corner
+              became the place where I spent most of my free time.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+              The more time I spent shaping wood, the more I wanted to
+              keep doing it. Eventually, the workshop moved home, the tools
+              multiplied, and what began as a curiosity turned into
+              something I could share with other people.
             </p>
           </div>
         </div>
