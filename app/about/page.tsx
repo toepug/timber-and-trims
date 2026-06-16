@@ -84,7 +84,7 @@ export default function AboutPage() {
       <section className="bg-cream-dark py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+            <div className="relative aspect-[3/4] overflow-hidden rounded-2xl">
               <Image
                 src="/images/products/black-acetate-walnut-mosaic-inlay-side.jpg"
                 alt="Side view of walnut wood temples with a colorful checkerboard mosaic inlay on black frames"
