@@ -71,24 +71,27 @@ export default function AboutPage() {
             Two materials that were never supposed to meet
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-            Upcycled material frame fronts are great at what they do &mdash; color,
-            pattern, durability, and decades of established shapes. Wood is
-            great at something else entirely: grain that&rsquo;s different on
-            every single piece, a warmth you can feel against your skin, and
-            the kind of patina that only comes from being carried and worn.
+            Acetate and wood each bring something different to a frame.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-            Putting them together means every pair is genuinely one of a
-            kind. Two frames built from the same plastic front and the same
-            species of wood will still come out looking like siblings, not
-            twins &mdash; and that&rsquo;s exactly how I like it.
+            The acetate front provides the color, pattern, durability, and
+            timeless shapes that have made it a staple of eyewear for
+            generations. Wood brings character. No two pieces have exactly
+            the same grain, it feels warm against the skin, and it develops
+            a unique patina over time as it&rsquo;s worn and handled.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-            Every temple is shaped, inlaid, sanded, and oiled by hand before
-            it&rsquo;s fitted to a frame. I test the fit, the flex, and the
-            balance &mdash; because a beautiful pair of glasses that
-            doesn&rsquo;t sit right on your face isn&rsquo;t actually
-            beautiful at all.
+            When combined, they create frames that are truly one of a kind.
+            Even if I start with the same acetate front and the same species
+            of wood, the finished frames will never be identical. They&rsquo;ll
+            share the same DNA, but each pair develops its own personality.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+            Every wooden temple is cut, shaped, inlaid, sanded, and finished
+            by hand before being fitted to the frame. I personally check the
+            fit, flexibility, and balance of every pair. After all, no matter
+            how beautiful a frame looks on the workbench, it isn&rsquo;t
+            finished until it feels right on your face.
           </p>
         </div>
       </section>
