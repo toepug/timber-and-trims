@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const FOOTER_LINKS = [
@@ -14,7 +15,14 @@ export default function Footer() {
     <footer className="border-t border-oak-light/40 bg-walnut text-cream">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3 lg:px-8">
         <div>
-          <p className="font-serif text-xl font-semibold tracking-tight">
+          <Image
+            src="/logo-square.jpg"
+            alt="Timber and Trims"
+            width={581}
+            height={581}
+            className="h-12 w-12 rounded-lg"
+          />
+          <p className="mt-3 font-serif text-xl font-semibold tracking-tight">
             Timber <span className="text-oak">&amp;</span> Trims
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/75">

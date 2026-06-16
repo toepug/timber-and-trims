@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -19,12 +20,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-oak-light/40 bg-cream/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link
-          href="/"
-          onClick={() => setOpen(false)}
-          className="font-serif text-xl font-semibold tracking-tight text-walnut sm:text-2xl"
-        >
-          Timber <span className="text-oak">&amp;</span> Trims
+        <Link href="/" onClick={() => setOpen(false)}>
+          <Image
+            src="/logo-text-only.png"
+            alt="Timber and Trims"
+            width={769}
+            height={239}
+            className="h-8 w-auto mix-blend-multiply sm:h-9"
+            priority
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
