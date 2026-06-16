@@ -53,9 +53,25 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-cream/10">
-        <p className="mx-auto max-w-6xl px-4 py-4 text-xs text-cream/60 sm:px-6 lg:px-8">
-          &copy; {year} Timber &amp; Trims. All pieces handmade to order.
-        </p>
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:px-8">
+          <p className="text-xs text-cream/60">
+            &copy; {year} Timber &amp; Trims. All pieces handmade to order.
+          </p>
+          <div className="flex gap-4 text-xs text-cream/60">
+            <Link
+              href="/privacy"
+              className="transition-colors hover:text-cream/90"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/terms"
+              className="transition-colors hover:text-cream/90"
+            >
+              Terms of Service
+            </Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
