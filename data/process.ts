@@ -29,7 +29,7 @@ export const processSteps: ProcessStep[] = [
   {
     title: "3. Hand-setting the details",
     description:
-      "Each inlay piece is cut, glued, and sanded flush by hand -- a slow process where a fraction of a millimeter makes the difference between a clean line and a smudged one. Medallions, studs, and carved accents are set the same way.",
+      "Each inlay is cut, glued, and sanded flush by hand—a slow process where a fraction of a millimeter can mean the difference between a seamless finish and one that feels just slightly off.",
     image: img(
       "/images/process/inlay-rough.jpg",
       "A wood temple with rough inlay pieces set in place before sanding and finishing"
