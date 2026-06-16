@@ -15,7 +15,7 @@ export default function Footer() {
     <footer className="border-t border-oak-light/40 bg-walnut text-cream">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3 lg:px-8">
         <div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-start gap-2">
             <Image
               src="/logo-square.jpg"
               alt=""
@@ -28,7 +28,7 @@ export default function Footer() {
               alt="Timber and Trims"
               width={495}
               height={191}
-              className="h-10 w-auto brightness-0 invert"
+              className="h-12 w-auto brightness-0 invert"
             />
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/75">
