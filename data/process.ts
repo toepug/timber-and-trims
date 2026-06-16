@@ -47,7 +47,7 @@ export const processSteps: ProcessStep[] = [
   {
     title: "5. Fitting to the frame",
     description:
-      "The finished wood temples are hinged onto an upcycled material frame front and adjusted for fit -- balancing weight, flex, and how the wood grain lines up with the color of the front. The result: a frame that's part craft, part eyewear.",
+      "The finished wood temples are hinged onto a frame front and carefully adjusted for fit. I balance the weight, set the splay angle and pantoscopic tilt, and make sure the grain of the wood complements the color and character of the front. The result is something that sits comfortably on the face while still feeling like a handmade object—part craftsmanship, part eyewear.",
     image: img(
       "/images/process/finished-mosaic-temple-frame.jpg",
       "Finished eyeglasses with walnut wood temples and checkerboard mosaic inlay, shown on a workbench"
