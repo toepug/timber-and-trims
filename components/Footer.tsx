@@ -21,14 +21,14 @@ export default function Footer() {
               alt=""
               width={581}
               height={581}
-              className="h-8 w-8 rounded-md"
+              className="h-8 w-8 rounded-md sm:h-9 sm:w-9"
             />
             <Image
               src="/logo-text-only-with-signature.png"
               alt="Timber and Trims"
               width={495}
               height={191}
-              className="h-12 w-auto brightness-0 invert"
+              className="h-12 w-auto brightness-0 invert sm:h-14"
             />
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/75">
