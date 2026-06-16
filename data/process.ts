@@ -13,8 +13,8 @@ export const processSteps: ProcessStep[] = [
     description:
       "Every piece starts with a stack of raw blanks -- golden oak, walnut, maple, beech, mahogany, rosewood -- each one picked for its grain, color, and how it will pair with a frame front. No two blanks are identical, so no two finished temples are either.",
     image: img(
-      "/images/process/temple-blanks-assorted-1.jpg",
-      "An assortment of unfinished wood temple blanks in various wood tones and inlay patterns"
+      "/images/process/timber.jpg",
+      "Raw pieces of wood lumber ready to be cut into eyeglass temple blanks"
     ),
   },
   {
@@ -22,8 +22,8 @@ export const processSteps: ProcessStep[] = [
     description:
       "For pieces with a medallion, stripe, or mosaic accent, the inlay is laid out first. Thin strips of dyed wood and acrylic are arranged into chevrons, checkerboards, or rainbow bands before they're set permanently into the temple.",
     image: img(
-      "/images/process/raw-inlay-blanks-rainbow.jpg",
-      "Raw wood temple blanks with colorful rainbow-striped inlay patterns laid out on camouflage fabric"
+      "/images/process/various-inlays.jpg",
+      "An assortment of inlay material in various colors and patterns, laid out before being set into wood temples"
     ),
   },
   {
@@ -31,8 +31,8 @@ export const processSteps: ProcessStep[] = [
     description:
       "Each inlay piece is cut, glued, and sanded flush by hand -- a slow process where a fraction of a millimeter makes the difference between a clean line and a smudged one. Medallions, studs, and carved accents are set the same way.",
     image: img(
-      "/images/process/chevron-inlay-tips-closeup.jpg",
-      "Close-up of two wood temple tips showing a detailed rainbow chevron inlay pattern"
+      "/images/process/inlay-rough.jpg",
+      "A wood temple with rough inlay pieces set in place before sanding and finishing"
     ),
   },
   {

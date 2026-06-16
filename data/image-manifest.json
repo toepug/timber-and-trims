@@ -206,5 +206,17 @@
   "/images/about/maple-medallion-kilim-detail.jpg": {
     "width": 1400,
     "height": 1054
+  },
+  "/images/process/timber.jpg": {
+    "width": 1536,
+    "height": 2040
+  },
+  "/images/process/various-inlays.jpg": {
+    "width": 1536,
+    "height": 2040
+  },
+  "/images/process/inlay-rough.jpg": {
+    "width": 1536,
+    "height": 2040
   }
 }
