@@ -65,12 +65,17 @@ export default function Home() {
           Real wood grain, built for everyday glasses
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-          Every pair starts as a raw block of walnut, oak, maple, beech,
-          mahogany, or rosewood. I shape, inlay, and finish each temple by
-          hand, then hinge it onto an upcycled material frame front &mdash; matching
-          grain, color, and hardware so the wood and the frame feel like they
-          were made for each other. The result is eyewear with the warmth and
-          character of a handmade object, built to be worn every day.
+          Every pair starts as a rough piece of wood. I cut, shape, inlay,
+          sand, and finish each temple by hand before fitting it to an
+          upcycled material frame front. I spend a lot of time matching the
+          grain, color, and hardware so the two materials feel like they
+          belong together.
+        </p>
+        <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+          The result is a pair of glasses that combines the durability and
+          practicality of modern eyewear with the warmth and character of
+          something made by hand. They&rsquo;re built to be worn every day,
+          but no two pairs are ever exactly alike.
         </p>
       </section>
 
