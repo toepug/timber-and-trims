@@ -67,39 +67,52 @@ export default function AboutPage() {
 
       {/* Philosophy */}
       <section className="bg-cream-dark py-16">
-        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="font-serif text-sm uppercase tracking-[0.25em] text-oak">
-            Why wood + glasses
-          </p>
-          <h2 className="mt-2 font-serif text-3xl font-semibold text-walnut sm:text-4xl">
-            Two materials that were never supposed to meet
-          </h2>
-          <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-            Wood and TR-90 nylon each bring something different to a frame.
-          </p>
-          <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-            The recycled TR-90 nylon front provides the shape, color,
-            durability, and everyday practicality that make for a great pair
-            of glasses. Wood brings something else entirely. No two pieces
-            have exactly the same grain, it feels warm against the skin, and
-            it develops character over time as it&rsquo;s worn and handled.
-          </p>
-          <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-            When combined, they create frames that are genuinely one of a
-            kind. Even if I start with the same frame front and the same
-            species of wood, no two finished pairs will ever be exactly
-            alike. They&rsquo;ll share the same foundation, but each pair
-            ends up with its own unique character.
-          </p>
-          <p className="mt-4 text-lg leading-relaxed text-ink-muted">
-            Every wooden temple is cut, shaped, inlaid, sanded, and finished
-            by hand before being fitted to a recycled frame front. I
-            personally adjust and inspect every pair, checking the fit,
-            balance, splay angle, and pantoscopic tilt to make sure they sit
-            comfortably and naturally on the face. No matter how beautiful a
-            frame looks on the workbench, it isn&rsquo;t finished until it
-            feels right when you put it on.
-          </p>
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+              <Image
+                src="/images/about/maple-medallion-kilim-detail.jpg"
+                alt="Close-up of maple wood temples with a brass medallion resting on a woven textile"
+                fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <p className="font-serif text-sm uppercase tracking-[0.25em] text-oak">
+                Why wood + glasses
+              </p>
+              <h2 className="mt-2 font-serif text-3xl font-semibold text-walnut sm:text-4xl">
+                Two materials that were never supposed to meet
+              </h2>
+              <p className="mt-6 text-lg leading-relaxed text-ink-muted">
+                Wood and TR-90 nylon each bring something different to a frame.
+              </p>
+              <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+                The recycled TR-90 nylon front provides the shape, color,
+                durability, and everyday practicality that make for a great pair
+                of glasses. Wood brings something else entirely. No two pieces
+                have exactly the same grain, it feels warm against the skin, and
+                it develops character over time as it&rsquo;s worn and handled.
+              </p>
+              <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+                When combined, they create frames that are genuinely one of a
+                kind. Even if I start with the same frame front and the same
+                species of wood, no two finished pairs will ever be exactly
+                alike. They&rsquo;ll share the same foundation, but each pair
+                ends up with its own unique character.
+              </p>
+              <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+                Every wooden temple is cut, shaped, inlaid, sanded, and finished
+                by hand before being fitted to a recycled frame front. I
+                personally adjust and inspect every pair, checking the fit,
+                balance, splay angle, and pantoscopic tilt to make sure they sit
+                comfortably and naturally on the face. No matter how beautiful a
+                frame looks on the workbench, it isn&rsquo;t finished until it
+                feels right when you put it on.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
