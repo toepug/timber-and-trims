@@ -24,11 +24,11 @@ export default function Footer() {
               className="h-8 w-8 rounded-md"
             />
             <Image
-              src="/logo-text-only.png"
+              src="/logo-text-only-with-signature.png"
               alt="Timber and Trims"
-              width={769}
-              height={239}
-              className="h-8 w-auto brightness-0 invert"
+              width={495}
+              height={191}
+              className="h-10 w-auto brightness-0 invert"
             />
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/75">

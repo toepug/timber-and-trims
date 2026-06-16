@@ -61,6 +61,16 @@ export default function AboutPage() {
               multiplied, and what began as a curiosity turned into
               something I could share with other people.
             </p>
+            <div className="mt-8 border-t border-oak-light/40 pt-6">
+              <p className="text-sm text-ink-muted">Jason Woo</p>
+              <Image
+                src="/signature.png"
+                alt="Jason Woo's signature"
+                width={147}
+                height={74}
+                className="mt-1 h-10 w-auto opacity-75"
+              />
+            </div>
           </div>
         </div>
       </section>
