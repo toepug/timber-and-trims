@@ -15,13 +15,22 @@ export default function Footer() {
     <footer className="border-t border-oak-light/40 bg-walnut text-cream">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3 lg:px-8">
         <div>
-          <Image
-            src="/logo-text-only.png"
-            alt="Timber and Trims"
-            width={769}
-            height={239}
-            className="h-8 w-auto brightness-0 invert"
-          />
+          <div className="flex items-center gap-2">
+            <Image
+              src="/logo-square.jpg"
+              alt=""
+              width={581}
+              height={581}
+              className="h-8 w-8 rounded-md"
+            />
+            <Image
+              src="/logo-text-only.png"
+              alt="Timber and Trims"
+              width={769}
+              height={239}
+              className="h-8 w-auto brightness-0 invert"
+            />
+          </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/75">
             Hand-carved wooden eyeglass temples, fitted to upcycled material
             frame fronts and finished one pair at a time.
