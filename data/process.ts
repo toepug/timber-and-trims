@@ -11,7 +11,7 @@ export const processSteps: ProcessStep[] = [
   {
     title: "1. Choosing the wood",
     description:
-      "Every piece starts with a stack of raw blanks -- golden oak, walnut, maple, beech, mahogany, rosewood -- each one picked for its grain, color, and how it will pair with a frame front. No two blanks are identical, so no two finished temples are either.",
+      "Every piece starts with a select piece of timber, hand picked for its grain, color, and how it will pair with a frame front. No two blanks are identical, so no two finished temples are either.",
     image: img(
       "/images/process/timber.jpg",
       "Raw pieces of wood lumber ready to be cut into eyeglass temple blanks"
