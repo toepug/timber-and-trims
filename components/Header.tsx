@@ -30,11 +30,11 @@ export default function Header() {
             priority
           />
           <Image
-            src="/logo-text-only.png"
+            src="/logo-text-only-with-signature.png"
             alt="Timber and Trims"
-            width={769}
-            height={239}
-            className="h-8 w-auto mix-blend-multiply sm:h-9"
+            width={495}
+            height={191}
+            className="h-9 w-auto mix-blend-multiply sm:h-10"
             priority
           />
         </Link>
