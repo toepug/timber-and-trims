@@ -61,6 +61,11 @@ export default function AboutPage() {
               multiplied, and what began as a curiosity turned into
               something I could share with other people.
             </p>
+            <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+              Thank you for supporting handmade work. I hope these frames serve
+              you well for years to come and become a small part of your own
+              story along the way.
+            </p>
             <div className="mt-8 border-t border-oak-light/40 pt-6">
               <p className="text-sm text-ink-muted">Jason Woo</p>
               <Image
