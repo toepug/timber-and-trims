@@ -89,14 +89,6 @@ export default function ProductCard({ product }: { product: Product }) {
         )}
       </div>
 
-      <div className="p-4">
-        <h3 className="font-serif text-base font-semibold text-walnut">
-          {product.name}
-        </h3>
-        <p className="mt-1 text-sm leading-snug text-ink-muted">
-          {product.tagline}
-        </p>
-      </div>
     </div>
   );
 }
