@@ -297,12 +297,12 @@ export const products: Product[] = [
     tags: ["mahogany", "gray", "medallion"],
     images: [
       img(
-        "/images/products/gray-acetate-mahogany-temple-front.jpg",
-        "Front view of gray upcycled material eyeglasses with reddish mahogany wood temples"
-      ),
-      img(
         "/images/products/gray-acetate-mahogany-silver-medallion.jpg",
         "Gray upcycled material eyeglass frames with reddish mahogany wood temples, each set with an ornate silver medallion"
+      ),
+      img(
+        "/images/products/gray-acetate-mahogany-temple-front.jpg",
+        "Front view of gray upcycled material eyeglasses with reddish mahogany wood temples"
       ),
     ],
   },
