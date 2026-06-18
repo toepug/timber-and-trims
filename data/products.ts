@@ -458,12 +458,12 @@ export const products: Product[] = [
     tags: ["black", "carved", "geometric"],
     images: [
       img(
-        "/images/products/IMG_20220903_185304_BURST001_COVER.jpg",
-        "Front view of black eyeglasses with medium wood temples carved in a repeating geometric cross pattern"
-      ),
-      img(
         "/images/products/IMG_20220903_185158.jpg",
         "Side view of a single temple with hand-carved geometric cross detailing"
+      ),
+      img(
+        "/images/products/IMG_20220903_185304_BURST001_COVER.jpg",
+        "Front view of black eyeglasses with medium wood temples carved in a repeating geometric cross pattern"
       ),
       img(
         "/images/products/IMG_20220903_185216.jpg",
