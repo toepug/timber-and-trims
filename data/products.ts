@@ -718,12 +718,12 @@ export const products: Product[] = [
     tags: ["sage", "green", "maple", "stripe", "inlay"],
     images: [
       img(
-        "/images/products/IMG_20230214_143034.jpg",
-        "Sage green eyeglasses with maple wood temples and a decorative stripe inlay, photographed on a fence"
-      ),
-      img(
         "/images/products/IMG_20230214_143010.jpg",
         "Portrait view of sage green frames with maple stripe-inlay temples"
+      ),
+      img(
+        "/images/products/IMG_20230214_143034.jpg",
+        "Sage green eyeglasses with maple wood temples and a decorative stripe inlay, photographed on a fence"
       ),
     ],
   },
