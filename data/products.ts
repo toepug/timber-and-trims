@@ -61,6 +61,14 @@ export const products: Product[] = [
         "/images/products/teal-acetate-maple-brass-medallion-angle.jpg",
         "Angled view of teal upcycled material frames with maple wood temples and brass medallions"
       ),
+      img(
+        "/images/products/forest-acetate-beech-brass-medallion-side.jpg",
+        "Forest green upcycled material eyeglass frames with beech wood temples, each set with a round brass medallion"
+      ),
+      img(
+        "/images/products/forest-acetate-beech-brass-medallion-crossed.jpg",
+        "Forest green upcycled material frames with beech wood temples and brass medallions, folded with temples crossed"
+      ),
     ],
   },
   {
@@ -171,28 +179,6 @@ export const products: Product[] = [
       img(
         "/images/products/sky-blue-acetate-beech-striped-temple.jpg",
         "Sky blue upcycled material eyeglass frames with beech wood temples featuring a subtle striped inlay"
-      ),
-    ],
-  },
-  {
-    slug: "forest-crest-beech-brass",
-    name: "Forest Crest",
-    tagline: "Forest green upcycled material with beech temples and brass medallions",
-    description:
-      "Deep forest green upcycled material meets pale, fine-grained beech, finished with a hand-set brass medallion on each temple. Grounded, woodsy, and quietly refined.",
-    category: "signature-series",
-    tone: "light",
-    frameColor: "Forest green",
-    accents: ["Brass medallion"],
-    tags: ["beech", "green", "medallion"],
-    images: [
-      img(
-        "/images/products/forest-acetate-beech-brass-medallion-side.jpg",
-        "Forest green upcycled material eyeglass frames with beech wood temples, each set with a round brass medallion"
-      ),
-      img(
-        "/images/products/forest-acetate-beech-brass-medallion-crossed.jpg",
-        "Forest green upcycled material frames with beech wood temples and brass medallions, folded with temples crossed"
       ),
     ],
   },
