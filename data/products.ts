@@ -348,6 +348,10 @@ export const products: Product[] = [
         "/images/products/walnut-sunglasses-pair-handheld.jpg",
         "A hand holding two pairs of walnut wood sunglasses, one with green lenses and one with silver mirrored lenses"
       ),
+      img(
+        "/images/products/walnut-sunglasses-silver-mirror-display.jpg",
+        "Walnut wood sunglasses with silver mirrored lenses displayed on a glass shelf"
+      ),
     ],
   },
   {
@@ -365,24 +369,6 @@ export const products: Product[] = [
       img(
         "/images/products/golden-oak-aviator-rose-mirror.jpg",
         "Golden oak wood aviator sunglasses with rose-pink mirrored lenses on a display stand"
-      ),
-    ],
-  },
-  {
-    slug: "trail-walnut-silver-mirror",
-    name: "Trail Square",
-    tagline: "Walnut sunglasses with silver mirrored lenses",
-    description:
-      "A versatile square wood frame in walnut with a tight, even grain, finished with cool silver mirrored lenses. Equally at home on a hike or around town.",
-    category: "full-wood-frame",
-    tone: "dark",
-    frameColor: "Natural wood",
-    accents: ["Silver mirrored lenses"],
-    tags: ["walnut", "mirror"],
-    images: [
-      img(
-        "/images/products/walnut-sunglasses-silver-mirror-display.jpg",
-        "Walnut wood sunglasses with silver mirrored lenses displayed on a glass shelf"
       ),
     ],
   },
