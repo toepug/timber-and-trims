@@ -438,32 +438,6 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "navy-light-wood-green-hinge",
-    name: "Navy & Light Wood",
-    tagline: "Navy frame with pale wood temples and green resin hinge detail",
-    description:
-      "A deep navy frame front paired with light wood temples, finished with a green resin accent at the hinge. The contrast between the dark front and pale temples keeps the look fresh.",
-    category: "wood-temples",
-    tone: "light",
-    frameColor: "Navy",
-    accents: ["Green resin hinge accent"],
-    tags: ["navy", "blue", "light wood", "green"],
-    images: [
-      img(
-        "/images/products/IMG_20220903_185021.jpg",
-        "Side profile of navy eyeglasses with pale wood temples and a green resin hinge accent"
-      ),
-      img(
-        "/images/products/IMG_20220903_185045.jpg",
-        "Front view of navy frames with light wood temples"
-      ),
-      img(
-        "/images/products/IMG_20220903_185105.jpg",
-        "Angled view of navy eyeglasses showing the pale wood temple and green hinge detail"
-      ),
-    ],
-  },
-  {
     slug: "black-carved-cross-temple",
     name: "Black & Carved Cross",
     tagline: "Black frame with hand-carved geometric cross pattern on medium wood",
