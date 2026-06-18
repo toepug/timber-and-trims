@@ -636,8 +636,8 @@ export const products: Product[] = [
     tags: ["olive", "green", "walnut", "purple", "diamonds"],
     images: [
       img(
-        "/images/products/IMG_20230103_175221.jpg",
-        "Olive green eyeglasses with walnut temples inset with purple diamond-shaped resin accents"
+        "/images/products/IMG_20230103_175311.jpg",
+        "Side view of olive eyeglasses with walnut temples and purple diamond accents"
       ),
       img(
         "/images/products/IMG_20230103_175223.jpg",
@@ -646,10 +646,6 @@ export const products: Product[] = [
       img(
         "/images/products/IMG_20230103_175300.jpg",
         "Angled view showing the row of purple diamonds set into the walnut temple"
-      ),
-      img(
-        "/images/products/IMG_20230103_175311.jpg",
-        "Side view of olive eyeglasses with walnut temples and purple diamond accents"
       ),
       img(
         "/images/products/IMG_20230103_175338.jpg",
