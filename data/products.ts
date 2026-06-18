@@ -416,6 +416,588 @@ export const products: Product[] = [
       ),
     ],
   },
+
+  // ── New products from IMG_ photos ─────────────────────────────────────────
+
+  {
+    slug: "red-olive-wood",
+    name: "Red & Olive Wood",
+    tagline: "Bright red frame with naturally striped olive wood temples",
+    description:
+      "A vivid red frame front paired with temples in a warm, naturally banded wood. The stripe in the grain isn't carved — it's just how the wood grew. Simple, bold, and entirely handmade.",
+    category: "wood-temples",
+    tone: "medium",
+    frameColor: "Bright red",
+    accents: [],
+    tags: ["red", "striped", "olive"],
+    images: [
+      img(
+        "/images/products/IMG_20220903_184445.jpg",
+        "Top view of red eyeglass frames with naturally striped olive wood temples"
+      ),
+      img(
+        "/images/products/IMG_20220903_184506.jpg",
+        "Side view of red frames showing the striped wood grain on the temples"
+      ),
+      img(
+        "/images/products/IMG_20220903_184605.jpg",
+        "Portrait view of red eyeglasses with olive wood temples resting on a surface"
+      ),
+    ],
+  },
+  {
+    slug: "black-light-wood-green-hinge",
+    name: "Black & Light Wood",
+    tagline: "Matte black frame with pale wood temples and a green resin hinge accent",
+    description:
+      "A matte black frame front fitted with light, fine-grained wood temples. A small green resin accent at the hinge adds a quiet pop of color — easy to miss until someone asks about it.",
+    category: "wood-temples",
+    tone: "light",
+    frameColor: "Matte black",
+    accents: ["Green resin hinge accent"],
+    tags: ["black", "light wood", "green"],
+    images: [
+      img(
+        "/images/products/IMG_20220903_184958.jpg",
+        "Portrait view of matte black eyeglasses with pale wood temples and a green resin hinge detail"
+      ),
+    ],
+  },
+  {
+    slug: "navy-light-wood-green-hinge",
+    name: "Navy & Light Wood",
+    tagline: "Navy frame with pale wood temples and green resin hinge detail",
+    description:
+      "A deep navy frame front paired with light wood temples, finished with a green resin accent at the hinge. The contrast between the dark front and pale temples keeps the look fresh.",
+    category: "wood-temples",
+    tone: "light",
+    frameColor: "Navy",
+    accents: ["Green resin hinge accent"],
+    tags: ["navy", "blue", "light wood", "green"],
+    images: [
+      img(
+        "/images/products/IMG_20220903_185021.jpg",
+        "Side profile of navy eyeglasses with pale wood temples and a green resin hinge accent"
+      ),
+      img(
+        "/images/products/IMG_20220903_185045.jpg",
+        "Front view of navy frames with light wood temples"
+      ),
+      img(
+        "/images/products/IMG_20220903_185105.jpg",
+        "Angled view of navy eyeglasses showing the pale wood temple and green hinge detail"
+      ),
+    ],
+  },
+  {
+    slug: "black-carved-cross-temple",
+    name: "Black & Carved Cross",
+    tagline: "Black frame with hand-carved geometric cross pattern on medium wood",
+    description:
+      "Medium-toned wood temples carved with a repeating geometric cross motif across the full length of each arm. The pattern is cut by hand, so no two temples are identical. Fitted to a matte black frame front.",
+    category: "signature-series",
+    tone: "medium",
+    frameColor: "Matte black",
+    accents: ["Hand-carved cross pattern"],
+    tags: ["black", "carved", "geometric"],
+    images: [
+      img(
+        "/images/products/IMG_20220903_185304_BURST001_COVER.jpg",
+        "Front view of black eyeglasses with medium wood temples carved in a repeating geometric cross pattern"
+      ),
+      img(
+        "/images/products/IMG_20220903_185339.jpg",
+        "Angled view showing the carved cross pattern running along both temples"
+      ),
+      img(
+        "/images/products/IMG_20220903_185158.jpg",
+        "Side view of a single temple with hand-carved geometric cross detailing"
+      ),
+      img(
+        "/images/products/IMG_20220903_185216.jpg",
+        "Close view of the carved cross pattern on the wood temple"
+      ),
+      img(
+        "/images/products/IMG_20220903_185228.jpg",
+        "Top view of black frames with medium wood carved cross temples"
+      ),
+    ],
+  },
+  {
+    slug: "black-rosewood-green-lens",
+    name: "Black Rosewood Sunglasses",
+    tagline: "Black sunglass frames with rich rosewood temples and green lenses",
+    description:
+      "A bold sunglass frame in matte black paired with deep, reddish-brown rosewood temples — the kind of grain that shifts from amber to mahogany depending on the light. Fitted with green-tinted lenses.",
+    category: "wood-temples",
+    tone: "dark",
+    frameColor: "Matte black",
+    accents: ["Green-tinted lenses"],
+    tags: ["black", "rosewood", "sunglasses", "green"],
+    images: [
+      img(
+        "/images/products/IMG_20220927_095414.jpg",
+        "Black sunglass frames with deep rosewood temples and green lenses resting against a tree outdoors"
+      ),
+      img(
+        "/images/products/IMG_20220927_094509.jpg",
+        "Side view of black sunglasses with rosewood wood temples"
+      ),
+      img(
+        "/images/products/IMG_20220927_094559.jpg",
+        "Black sunglass frames with rosewood temples hanging on a tree branch"
+      ),
+      img(
+        "/images/products/IMG_20220927_094754.jpg",
+        "Angled view of black sunglasses with rich rosewood temples and green lenses"
+      ),
+      img(
+        "/images/products/IMG_20220927_102731.jpg",
+        "Top view of black frames with rosewood temples laid flat"
+      ),
+    ],
+  },
+  {
+    slug: "black-driftwood-temple",
+    name: "Black & Driftwood",
+    tagline: "Matte black frame with pale, weathered driftwood-toned temples",
+    description:
+      "Light, pale-toned wood temples with a bleached, almost driftwood quality set against a matte black frame. An understated pair that wears quietly and pairs with almost anything.",
+    category: "wood-temples",
+    tone: "light",
+    frameColor: "Matte black",
+    accents: [],
+    tags: ["black", "light wood", "driftwood"],
+    images: [
+      img(
+        "/images/products/IMG_20221020_181130.jpg",
+        "Black eyeglasses with pale driftwood-toned wood temples resting on fabric"
+      ),
+      img(
+        "/images/products/IMG_20221020_181143.jpg",
+        "Side view of matte black frames with light, bleached-looking wood temples"
+      ),
+    ],
+  },
+  {
+    slug: "black-carved-wave-purple",
+    name: "Black Carved Wave",
+    tagline: "Black sunglasses with sculptural carved walnut temples and purple resin",
+    description:
+      "Walnut temples carved into a flowing wave profile, finished with a strip of purple resin running through the carved channel. Fitted to matte black sunglass frames. The sculpture takes longer than the entire rest of the build.",
+    category: "signature-series",
+    tone: "dark",
+    frameColor: "Matte black",
+    accents: ["Carved wave profile", "Purple resin inlay"],
+    tags: ["black", "walnut", "carved", "purple", "sunglasses"],
+    featured: true,
+    images: [
+      img(
+        "/images/products/IMG_20221126_124356.jpg",
+        "Side profile of black sunglass frames with walnut temples carved into a wave shape with purple resin detail"
+      ),
+      img(
+        "/images/products/IMG_20221126_124347.jpg",
+        "Front view of black sunglasses with sculptural carved walnut temples"
+      ),
+      img(
+        "/images/products/IMG_20221126_124410.jpg",
+        "Close-up showing the carved wave profile and purple resin channel in the walnut temple"
+      ),
+      img(
+        "/images/products/IMG_20221126_124426.jpg",
+        "Angled overhead view of black sunglasses with carved wave walnut temples"
+      ),
+      img(
+        "/images/products/IMG_20221126_124538.jpg",
+        "Portrait close-up of the carved walnut temple showing the wave detail and purple resin inlay"
+      ),
+    ],
+  },
+  {
+    slug: "royal-blue-multi-wood-stripe",
+    name: "Royal Blue & Wood Stripe",
+    tagline: "Royal blue frame with maple temples and a decorative multi-wood stripe",
+    description:
+      "Pale maple temples banded with a hand-inlaid strip of contrasting woods — several tones set side by side to form a decorative accent near the hinge. Paired with a royal blue frame front.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Royal blue",
+    accents: ["Multi-wood stripe inlay"],
+    tags: ["blue", "maple", "stripe", "inlay"],
+    images: [
+      img(
+        "/images/products/IMG_20221210_135555.jpg",
+        "Royal blue eyeglasses with pale maple temples and a decorative multi-wood stripe inlay, resting on a reflective surface"
+      ),
+      img(
+        "/images/products/IMG_20221210_135609.jpg",
+        "Front view of royal blue frames with maple wood temples"
+      ),
+      img(
+        "/images/products/IMG_20221210_135613.jpg",
+        "Angled view of the maple temple showing the multi-wood stripe inlay detail"
+      ),
+      img(
+        "/images/products/IMG_20221210_135724.jpg",
+        "Side view of royal blue eyeglasses with light maple temples"
+      ),
+    ],
+  },
+  {
+    slug: "midnight-blue-spalted-maple",
+    name: "Midnight Blue & Spalted Maple",
+    tagline: "Midnight blue frame with spalted maple temples",
+    description:
+      "Spalted maple is one of the few woods where imperfection is the whole point: the dark streaks and figuring are caused by fungal growth that stopped when the wood dried, leaving behind a map of something that once moved through it. Fitted to a midnight blue frame front.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Midnight blue",
+    accents: [],
+    tags: ["blue", "spalted maple", "maple"],
+    featured: true,
+    images: [
+      img(
+        "/images/products/IMG_20230103_175143.jpg",
+        "Midnight blue eyeglasses with spalted maple temples showing dramatic dark streaks in the wood grain"
+      ),
+      img(
+        "/images/products/IMG_20230103_175113.jpg",
+        "Front view of midnight blue frames with spalted maple temples"
+      ),
+      img(
+        "/images/products/IMG_20230103_175125.jpg",
+        "Angled view showing the figuring and black streaks in the spalted maple temple"
+      ),
+    ],
+  },
+  {
+    slug: "olive-walnut-purple-diamonds",
+    name: "Olive & Walnut Purple Diamonds",
+    tagline: "Olive frame with walnut temples and purple diamond resin accents",
+    description:
+      "Walnut temples set with a row of diamond-shaped purple resin accents running along the outer edge. The diamonds are cut and set individually, so no two are perfectly uniform. Paired with an olive green frame front.",
+    category: "signature-series",
+    tone: "dark",
+    frameColor: "Olive green",
+    accents: ["Purple diamond resin accents"],
+    tags: ["olive", "green", "walnut", "purple", "diamonds"],
+    images: [
+      img(
+        "/images/products/IMG_20230103_175221.jpg",
+        "Olive green eyeglasses with walnut temples inset with purple diamond-shaped resin accents"
+      ),
+      img(
+        "/images/products/IMG_20230103_175223.jpg",
+        "Close-up front view of olive frames with the walnut and purple diamond temple detail"
+      ),
+      img(
+        "/images/products/IMG_20230103_175300.jpg",
+        "Angled view showing the row of purple diamonds set into the walnut temple"
+      ),
+      img(
+        "/images/products/IMG_20230103_175311.jpg",
+        "Side view of olive eyeglasses with walnut temples and purple diamond accents"
+      ),
+      img(
+        "/images/products/IMG_20230103_175338.jpg",
+        "Portrait close-up of the purple diamond resin inlay in the walnut temple"
+      ),
+    ],
+  },
+  {
+    slug: "green-olive-wood-plain",
+    name: "Green & Olive Wood",
+    tagline: "Forest green frame with plain olive wood temples",
+    description:
+      "An unpretentious pairing: a forest green frame front with olive wood temples left mostly as they came from the plank. The grain does the work.",
+    category: "wood-temples",
+    tone: "medium",
+    frameColor: "Forest green",
+    accents: [],
+    tags: ["green", "olive", "plain"],
+    images: [
+      img(
+        "/images/products/IMG_20230103_175548.jpg",
+        "Forest green eyeglasses with plain olive wood temples displayed in an optical setting"
+      ),
+      img(
+        "/images/products/IMG_20230103_175418.jpg",
+        "Portrait view of green frames with olive wood temples held up against a light background"
+      ),
+      img(
+        "/images/products/IMG_20230103_175453.jpg",
+        "Close portrait view showing the olive wood grain on green-framed eyeglasses"
+      ),
+    ],
+  },
+  {
+    slug: "clear-beech-walnut-two-tone",
+    name: "Clear & Two-Tone Wood",
+    tagline: "Clear frame with two-tone beech and walnut temples",
+    description:
+      "Each temple is built from two pieces of wood joined at the middle — pale beech on one end, dark walnut on the other. The join is clean, the contrast is high, and the clear frame front lets the temple do all the talking.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Clear",
+    accents: ["Two-tone wood joint"],
+    tags: ["clear", "beech", "walnut", "two-tone"],
+    images: [
+      img(
+        "/images/products/IMG_20230103_175626.jpg",
+        "Clear eyeglass frames with two-tone beech and walnut wood temples showing the pale-to-dark contrast join"
+      ),
+      img(
+        "/images/products/IMG_20230103_175642.jpg",
+        "Side view of clear frames with two-tone beech and walnut temples"
+      ),
+      img(
+        "/images/products/IMG_20230103_175733.jpg",
+        "Portrait close-up of the two-tone wood temple showing the beech-to-walnut transition"
+      ),
+    ],
+  },
+  {
+    slug: "sage-maple-stripe-inlay",
+    name: "Sage & Maple Stripe",
+    tagline: "Sage green frame with maple temples and a decorative stripe inlay",
+    description:
+      "Clean maple temples with a thin decorative stripe inlay set near the hinge, mounted on a soft sage green frame front. The inlay is subtle enough that you notice it up close rather than across the room — which is exactly the point.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Sage green",
+    accents: ["Stripe inlay"],
+    tags: ["sage", "green", "maple", "stripe", "inlay"],
+    images: [
+      img(
+        "/images/products/IMG_20230214_143034.jpg",
+        "Sage green eyeglasses with maple wood temples and a decorative stripe inlay, photographed on a fence"
+      ),
+      img(
+        "/images/products/IMG_20230214_143010.jpg",
+        "Portrait view of sage green frames with maple stripe-inlay temples"
+      ),
+    ],
+  },
+  {
+    slug: "dark-teal-zebrawood",
+    name: "Dark Teal & Zebrawood",
+    tagline: "Dark teal frame with zebrawood temples",
+    description:
+      "Zebrawood is named for a reason: alternating light and dark grain runs straight down each temple in bold, graphic stripes. No inlay needed. Fitted to a dark teal frame front.",
+    category: "wood-temples",
+    tone: "medium",
+    frameColor: "Dark teal",
+    accents: [],
+    tags: ["teal", "zebrawood", "striped"],
+    images: [
+      img(
+        "/images/products/IMG_20230214_160712.jpg",
+        "Dark teal eyeglasses with zebrawood temples showing bold alternating light and dark grain stripes"
+      ),
+      img(
+        "/images/products/IMG_20230214_160640.jpg",
+        "Front view of dark teal frames with zebrawood temples"
+      ),
+      img(
+        "/images/products/IMG_20230214_160758.jpg",
+        "Angled view of dark teal eyeglasses with zebrawood temples"
+      ),
+    ],
+  },
+  {
+    slug: "clear-maple-laser-map",
+    name: "Clear Maple Laser Map",
+    tagline: "Clear frame with maple temples laser-engraved with a topographic map",
+    description:
+      "The temple surface is laser-engraved with a topographic map pattern — contour lines, elevation markings, grid coordinates. The maple grain reads through the engraving, which shifts from light to dark depending on the angle. Fitted to a clear frame front.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Clear",
+    accents: ["Laser-engraved topographic map"],
+    tags: ["clear", "maple", "laser", "map", "engraved"],
+    images: [
+      img(
+        "/images/products/IMG_20230801_162307.jpg",
+        "Clear eyeglasses with maple temples laser-engraved with a detailed topographic map pattern"
+      ),
+      img(
+        "/images/products/IMG_20230801_162335.jpg",
+        "Close portrait view of the laser-engraved topographic map detail on the maple temple"
+      ),
+      img(
+        "/images/products/IMG_20230801_162353.jpg",
+        "Portrait view of clear frames with laser map engraved maple temples"
+      ),
+      img(
+        "/images/products/IMG_20230801_162353_1.jpg",
+        "Alternate portrait view of the topographic map engraving on the maple wood temple"
+      ),
+    ],
+  },
+  {
+    slug: "gray-striped-rosewood",
+    name: "Gray & Striped Rosewood",
+    tagline: "Gray frame with naturally striped rosewood temples",
+    description:
+      "Deep reddish-brown rosewood with a natural stripe running through each temple, mounted on a gray frame front. Rosewood is one of the more dramatic woods to work with — the grain does things you can't plan for.",
+    category: "wood-temples",
+    tone: "dark",
+    frameColor: "Gray",
+    accents: [],
+    tags: ["gray", "rosewood", "striped"],
+    images: [
+      img(
+        "/images/products/IMG_20230801_162455.jpg",
+        "Portrait view of gray eyeglasses with naturally striped rosewood temples"
+      ),
+      img(
+        "/images/products/IMG_20230801_162445.jpg",
+        "Close portrait view of the rosewood grain and stripe detail on a gray frame"
+      ),
+      img(
+        "/images/products/IMG_20230801_162545.jpg",
+        "Front portrait view of gray frames with deep reddish-brown rosewood temples"
+      ),
+    ],
+  },
+  {
+    slug: "red-maple-makers-mark",
+    name: "Red Maple Maker's Mark",
+    tagline: "Red frame with maple temples and hand-engraved maker's mark",
+    description:
+      "Clean maple temples with a small maker's mark engraved into the outer face, fitted to a red frame front. The engraving is intentionally understated — a quiet signature rather than a logo.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Red",
+    accents: ["Engraved maker's mark"],
+    tags: ["red", "maple", "maker's mark", "engraved"],
+    images: [
+      img(
+        "/images/products/IMG_20231013_125653.jpg",
+        "Red eyeglasses with pale maple temples engraved with a small maker's mark, photographed outdoors"
+      ),
+      img(
+        "/images/products/IMG_20231013_125438.jpg",
+        "Close portrait view of the maker's mark engraving on the maple temple"
+      ),
+      img(
+        "/images/products/IMG_20231013_125821.jpg",
+        "Side view of red frames with engraved maple temples laid on a wood surface"
+      ),
+      img(
+        "/images/products/IMG_20231013_125840.jpg",
+        "Angled view of red eyeglasses with maple maker's mark temples"
+      ),
+      img(
+        "/images/products/IMG_20231013_125849.jpg",
+        "Top view of red frames with pale maple temples"
+      ),
+    ],
+  },
+  {
+    slug: "dark-teal-maple-makers-mark",
+    name: "Dark Teal Maker's Mark",
+    tagline: "Dark teal frame with maple temples and engraved maker's mark",
+    description:
+      "The same maple maker's mark temple on a dark teal frame front. Clean and simple — the kind of pair that disappears into everyday life.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Dark teal",
+    accents: ["Engraved maker's mark"],
+    tags: ["teal", "maple", "maker's mark", "engraved"],
+    images: [
+      img(
+        "/images/products/IMG_20231013_125734.jpg",
+        "Dark teal eyeglasses with maple temples engraved with a maker's mark, photographed outdoors"
+      ),
+      img(
+        "/images/products/IMG_20231013_125755.jpg",
+        "Side view of dark teal frames with engraved maple temples"
+      ),
+    ],
+  },
+  {
+    slug: "charcoal-maple-makers-mark",
+    name: "Charcoal Maker's Mark",
+    tagline: "Charcoal frame with maple temples and engraved maker's mark",
+    description:
+      "Dark charcoal frame front with pale maple temples, each engraved with a maker's mark. The light wood against the dark frame makes a clean, graphic contrast.",
+    category: "signature-series",
+    tone: "light",
+    frameColor: "Charcoal",
+    accents: ["Engraved maker's mark"],
+    tags: ["charcoal", "black", "maple", "maker's mark"],
+    images: [
+      img(
+        "/images/products/IMG_20231013_125918.jpg",
+        "Charcoal eyeglasses with pale maple temples engraved with a maker's mark, photographed on a wood surface"
+      ),
+      img(
+        "/images/products/IMG_20231013_125935.jpg",
+        "Side view of charcoal frames with engraved maple maker's mark temples"
+      ),
+      img(
+        "/images/products/IMG_20231013_125958.jpg",
+        "Portrait close-up of the charcoal frames with maple temples"
+      ),
+    ],
+  },
+  {
+    slug: "black-patchwork-temple",
+    name: "Black Patchwork Temple",
+    tagline: "Black frame with temples made from alternating blocks of light and dark wood",
+    description:
+      "The temples on this pair are built from short blocks of alternating light and dark wood joined end-to-end — a patchwork effect that turns the length of each arm into a rhythm of contrast. No two blocks are the same species, and the sequence is never repeated.",
+    category: "signature-series",
+    tone: "medium",
+    frameColor: "Black",
+    accents: ["Alternating patchwork wood blocks"],
+    tags: ["black", "patchwork", "contrast", "multi-wood"],
+    featured: true,
+    images: [
+      img(
+        "/images/products/IMG_20231115_210008.jpg",
+        "Black eyeglasses with patchwork temples made from alternating blocks of light and dark wood"
+      ),
+      img(
+        "/images/products/IMG_20231115_205915.jpg",
+        "Front view of black frames with alternating light and dark wood patchwork temples"
+      ),
+      img(
+        "/images/products/IMG_20231115_205952.jpg",
+        "Side view showing the patchwork wood block pattern running along the temple"
+      ),
+      img(
+        "/images/products/IMG_20231115_210016.jpg",
+        "Angled view of black eyeglasses with patchwork wood temples"
+      ),
+      img(
+        "/images/products/IMG_20231115_210032.jpg",
+        "Top view of black frames with alternating-block wood temples"
+      ),
+      img(
+        "/images/products/IMG_20231115_210048.jpg",
+        "Close-up of the patchwork joint between light and dark wood blocks on the temple"
+      ),
+      img(
+        "/images/products/IMG_20231115_210119.jpg",
+        "Overhead view of black patchwork temple eyeglasses on a wood surface"
+      ),
+      img(
+        "/images/products/IMG_20231115_210147.jpg",
+        "Side profile of black eyeglasses with alternating light and dark patchwork temples"
+      ),
+      img(
+        "/images/products/IMG_20231115_210232.jpg",
+        "Another view of the black patchwork temple frames"
+      ),
+      img(
+        "/images/products/IMG_20231116_204842.jpg",
+        "Portrait close-up of the patchwork temple showing the alternating wood block contrast"
+      ),
+    ],
+  },
 ];
 
 export const featuredProducts = products.filter((p) => p.featured);
