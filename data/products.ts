@@ -50,6 +50,10 @@ export const products: Product[] = [
     featured: true,
     images: [
       img(
+        "/images/products/forest-acetate-beech-brass-medallion-crossed.jpg",
+        "Forest green upcycled material frames with beech wood temples and brass medallions, folded with temples crossed"
+      ),
+      img(
         "/images/products/teal-acetate-maple-temple-front.jpg",
         "Front view of teal upcycled material eyeglasses with light maple wood temples"
       ),
@@ -64,10 +68,6 @@ export const products: Product[] = [
       img(
         "/images/products/forest-acetate-beech-brass-medallion-side.jpg",
         "Forest green upcycled material eyeglass frames with beech wood temples, each set with a round brass medallion"
-      ),
-      img(
-        "/images/products/forest-acetate-beech-brass-medallion-crossed.jpg",
-        "Forest green upcycled material frames with beech wood temples and brass medallions, folded with temples crossed"
       ),
     ],
   },
