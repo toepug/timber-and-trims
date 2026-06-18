@@ -27,20 +27,12 @@ export const products: Product[] = [
         "Front view of black upcycled material eyeglasses with walnut wood temples and carved skull medallions"
       ),
       img(
-        "/images/products/black-acetate-walnut-skull-medallion-back.jpg",
-        "Black upcycled material eyeglass frames with dark walnut wood temples, each inlaid with a carved ivory-colored skull medallion, viewed from behind"
-      ),
-      img(
         "/images/products/black-acetate-walnut-skull-medallion-closeup.jpg",
         "Close-up of a dark walnut wood temple with a carved skull medallion inlay on black upcycled material frames"
       ),
       img(
-        "/images/products/black-acetate-walnut-skull-medallion-shop.jpg",
-        "Walnut wood temples with carved skull medallions on black upcycled material frames, displayed in an optical shop"
-      ),
-      img(
-        "/images/products/black-acetate-walnut-skull-medallion-shop-2.jpg",
-        "Side view of walnut wood temples with a small carved skull medallion on black upcycled material frames"
+        "/images/products/black-acetate-walnut-chevron-inlay-pair.jpg",
+        "A pair of walnut wood temples showing rainbow chevron inlay patterns next to finished eyeglasses"
       ),
     ],
   },
@@ -271,10 +263,6 @@ export const products: Product[] = [
       img(
         "/images/products/black-acetate-walnut-chevron-inlay-top.jpg",
         "Black upcycled material eyeglasses with walnut wood temples featuring a rainbow chevron-striped inlay"
-      ),
-      img(
-        "/images/products/black-acetate-walnut-chevron-inlay-pair.jpg",
-        "A pair of walnut wood temples showing rainbow chevron inlay patterns next to finished eyeglasses"
       ),
     ],
   },
