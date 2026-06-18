@@ -420,24 +420,6 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "black-light-wood-green-hinge",
-    name: "Black & Light Wood",
-    tagline: "Matte black frame with pale wood temples and a green resin hinge accent",
-    description:
-      "A matte black frame front fitted with light, fine-grained wood temples. A small green resin accent at the hinge adds a quiet pop of color — easy to miss until someone asks about it.",
-    category: "wood-temples",
-    tone: "light",
-    frameColor: "Matte black",
-    accents: ["Green resin hinge accent"],
-    tags: ["black", "light wood", "green"],
-    images: [
-      img(
-        "/images/products/IMG_20220903_184958.jpg",
-        "Portrait view of matte black eyeglasses with pale wood temples and a green resin hinge detail"
-      ),
-    ],
-  },
-  {
     slug: "navy-light-wood-green-hinge",
     name: "Navy & Light Wood",
     tagline: "Navy frame with pale wood temples and green resin hinge detail",
