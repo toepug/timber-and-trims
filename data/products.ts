@@ -228,6 +228,20 @@ export const products: Product[] = [
         "/images/products/black-acetate-walnut-mosaic-inlay-side.jpg",
         "Side view of walnut wood temples with a colorful checkerboard mosaic inlay on black upcycled material frames"
       ),
+    ],
+  },
+  {
+    slug: "mosaic-walnut-checkerboard-detail",
+    name: "Mosaic Walnut Detail",
+    tagline: "Close-up of the hand-laid checkerboard inlay on walnut temples",
+    description:
+      "A close look at the checkerboard mosaic inlay — dozens of tiny pieces of wood and color hand-set into dark walnut, sanded flush, and finished. Each square is placed individually.",
+    category: "signature-series",
+    tone: "dark",
+    frameColor: "Black",
+    accents: ["Checkerboard mosaic inlay"],
+    tags: ["walnut", "black", "mosaic", "inlay"],
+    images: [
       img(
         "/images/products/black-acetate-walnut-mosaic-inlay-detail.jpg",
         "Close-up of a walnut wood temple showing a colorful checkerboard mosaic wood inlay"
