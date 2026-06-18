@@ -545,6 +545,10 @@ export const products: Product[] = [
     featured: true,
     images: [
       img(
+        "/images/products/IMG_20221126_124426.jpg",
+        "Angled overhead view of black sunglasses with carved wave walnut temples"
+      ),
+      img(
         "/images/products/IMG_20221126_124356.jpg",
         "Side profile of black sunglass frames with walnut temples carved into a wave shape with purple resin detail"
       ),
@@ -555,10 +559,6 @@ export const products: Product[] = [
       img(
         "/images/products/IMG_20221126_124410.jpg",
         "Close-up showing the carved wave profile and purple resin channel in the walnut temple"
-      ),
-      img(
-        "/images/products/IMG_20221126_124426.jpg",
-        "Angled overhead view of black sunglasses with carved wave walnut temples"
       ),
       img(
         "/images/products/IMG_20221126_124538.jpg",
