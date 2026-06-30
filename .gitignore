@@ -42,3 +42,6 @@ next-env.d.ts
 
 # original, unprocessed product photos (full-res, not needed for the site)
 /source-images
+
+.vercel
+.env*.local
